@@ -9,18 +9,26 @@ function likePlants(){
     let usrPlant=prompt('Do you like Plants, Yes or No?');
             if (usrPlant == 'yes'){
                 document.write("Well, here's some plants for you.")
-            }else if (usrPlant == 'Yes'){
+            } else if (usrPlant == 'Yes'){
                 document.write("Well, here's some plants for you.")
-            }else if (usrPlant == 'no') {
+            } else if (usrPlant == 'no') {
                 usrPlant=prompt('Do you like food, Yes or No')
-            }else if (usrPlant == 'No') {
+                if (usrPlant == 'yes'){
+                    document.write("Well, plants are food so, here's some plants for you.")
+                } else {
+                    document.write(' Well, you are still getting plants :). ')
+                } 
+            } else if (usrPlant == 'No') {
                 usrPlant=prompt('Do you like food, Yes or No')
-            }if (usrPlant == 'yes'){
-                document.write("Well, plants are food so, here's some plants for you.")
+                if (usrPlant == 'yes'){
+                    document.write("Well, plants are food so, here's some plants for you.")
+                } else {
+                    document.write(' Well, you are still getting plants :). ')
+                } 
             }else {
                 document.write(' Well, you are still getting plants :). ')
             }
-}
+        }
 
 function howManyPlants(){
     let usrPlantAmount=prompt('How many plants do you have?');
