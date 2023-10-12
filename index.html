@@ -3,29 +3,10 @@
     <head>
         <title>Plantttttttss</title>
         <link rel="stylesheet" href="style.css">
+        
     </head>
     <body>
-        <script>
-            const userName=prompt('Hello! What is your name?');
-            document.write('Hello, '+ userName +'.');
-        
-            let usrPlant=prompt('Do you like Plants?');
-            if (usrPlant == 'yes'){
-                document(" Well, here's some plants. ")
-            } else {
-                document.write(' Well, you are still getting plants. ')
-            }
-        
-            let usrPlantAmount=prompt('How many plants do you have?');
-            if(usrPlantAmount > 5){
-                document.write('You could use one plant.')
-            } else if(usrPlantAmount < 3){
-                document.write('You could use a few plants.')
-            } else {
-                document.write('You could use a couple plants.')
-            }
-
-        </script>
+        <script src="script.js"></script>
         <header>
             <h1>Plant Emporium</h1>
             <ul>
@@ -34,7 +15,10 @@
                     <li>to other</li>
                     <li>and antoher</li>
                 </Nav>
-            </ul>   
+            </ul>  
+            <script>askName()</script>
+            <script>likePlants()</script>
+            <script>howManyPlants()</script> 
         </header>
         <main>
             <section class="group1">
