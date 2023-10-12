@@ -3,6 +3,47 @@ body{
 }
 
 nav{
+    
+}
+
+h1{
+    text-align: center;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 25px;
+    width: 400px;
+    height: 300px;
+}
+
+section {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    background-color: aquamarine;
+    border-radius: 25px;
+}
+.group1{
+    float: left;
+}
+
+.group2{
+    
+}
+
+.group3{
+    float: right;
+}
+p {
+    width: 400px;
+}
+script {
     text-align: center;
 }
 
+* {
+    border: 1px black;
+}
