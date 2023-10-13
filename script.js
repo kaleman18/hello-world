@@ -25,10 +25,10 @@ function likePlants(){
                 } else {
                     document.write(' Well, you are still getting plants :). ')
                 } 
-            }else {
+            } else {
                 document.write(' Well, you are still getting plants :). ')
             }
-        }
+ }
 
 function howManyPlants(){
     let usrPlantAmount=prompt('How many plants do you have?');
@@ -39,4 +39,26 @@ function howManyPlants(){
             } else {
                 document.write('You could use a couple plants.')
             }
+}
+
+
+function guessMyPlants(){
+    let userGuess = prompt("Guess how many plants I have! (hint it's between 10 and 15)");
+    while (userGuess != 14){
+        userGuess = prompt('Nope! try again :)')
+    }
+    alert ("Correct! I know it's a lot of plants.")
+}
+
+
+ function rateMyPage(){
+     let theNumber = prompt('On a scale 0-5, how much do you hate plants?')
+      if (theNumber === '0'){
+        document.write('Perfect answer! <img class="good pic" src="img/smile prik.jpg">')
+     } else {
+        for (let  i = 1; i <= theNumber; i++) {
+            document.write('<img class="bad pic" src="img/prik funny.jpg">');
+        }
+    }
+     
 }
